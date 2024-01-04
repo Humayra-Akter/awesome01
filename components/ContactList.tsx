@@ -8,28 +8,28 @@ export default function ContactList() {
       name: 'Humayra Akter',
       status: 'Making your gPay smooth',
       imageUrl:
-        'hhttps://media.istockphoto.com/id/1363398400/photo/woman-traveler-in-europa-alhambra-in-spain.jpg?s=612x612&w=0&k=20&c=Z14eQ_IJywp7COkEQvAhxhiOagmqupQaO_RuRg5kEzM=',
+        'https://media.istockphoto.com/id/1363398400/photo/woman-traveler-in-europa-alhambra-in-spain.jpg?s=612x612&w=0&k=20&c=Z14eQ_IJywp7COkEQvAhxhiOagmqupQaO_RuRg5kEzM=',
     },
     {
       uid: 2,
       name: 'Sabrina Akhter',
       status: 'Making your bkash smooth',
       imageUrl:
-        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fwoman-avatar&psig=AOvVaw22fTtbpfzof4BwRZlNIKGj&ust=1704387945939000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCJDFzIXawYMDFQAAAAAdAAAAABAR',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmhxZGx1REBqy7AwYUwm9cYs5f4tvVLEThVtbgJw1gzA&s',
     },
     {
       uid: 3,
       name: 'Jannat Rahman',
       status: 'Saving your gPay',
       imageUrl:
-        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.svgrepo.com%2Fsvg%2F382100%2Ffemale-avatar-girl-face-woman-user-7&psig=AOvVaw22fTtbpfzof4BwRZlNIKGj&ust=1704387945939000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCJDFzIXawYMDFQAAAAAdAAAAABAx',
+        'https://images.unsplash.com/photo-1503220317375-aaad61436b1b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D',
     },
     {
       uid: 4,
       name: 'Ruby Jahan',
       status: 'Giving your gPay finance help',
       imageUrl:
-        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fwoman-avatar&psig=AOvVaw22fTtbpfzof4BwRZlNIKGj&ust=1704387945939000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCJDFzIXawYMDFQAAAAAdAAAAABBQ',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTed4EKurtdbYf08ouNa9fU4JZZPRZa8fxcnQLHJdfJgl3SWhJ09znw0JWT7ajXQmT_bcM&usqp=CAU',
     },
   ];
   return (
@@ -70,6 +70,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 3,
+    padding: 8,
+    backgroundColor: '#8D3DAF',
+    borderRadius: 10,
   },
   userImage: {
     height: 60,
@@ -78,11 +81,12 @@ const styles = StyleSheet.create({
     marginRight: 14,
   },
   userName: {
-    fontSize: 16,
-    // fontWeight: 'bold',
-    color: '#000',
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
   },
   userStatus: {
-    fontSize: 12,
+    fontSize: 14,
+    color: '#fff',
   },
 });
